@@ -1,3 +1,5 @@
+package main
+
 func numIslands(grid [][]byte) int {
 	if len(grid) == 0 {
 		return 0

@@ -1,4 +1,6 @@
-func numIslands(grid [][]byte) int {
+package main2
+
+func numIslands2(grid [][]byte) int {
 	count := 0
 	for line := range grid {
 		for column := range grid[line] {
@@ -28,8 +30,6 @@ func dfs(grid [][]byte, i, j int) {
 	dfs(grid, i, j+1)
 	dfs(grid, i, j-1)
 }
-
-
 
 // 作者：huang-huan-2
 // 链接：https://leetcode-cn.com/problems/number-of-islands/solution/ji-bai-100de-go-by-huang-huan-2/
