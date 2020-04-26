@@ -11,7 +11,6 @@ const dfs = (grid, r, c) => {
   dfs(grid, r, c - 1)
   dfs(grid, r, c + 1)
 }
-
 const numIslands = grid => {
   if (!grid || !grid.length) {
     return 0
